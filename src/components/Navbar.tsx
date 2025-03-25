@@ -25,9 +25,9 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 ease-in-out',
-        isScrolled ? 'backdrop-blur-lg bg-white/80 shadow-sm py-3' : 'bg-transparent py-6',
-        isMenuOpen && 'bg-white/95 backdrop-blur-lg shadow-sm'
+        'fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 ease-in-out bg-white/95 backdrop-blur-lg shadow-sm',
+        isScrolled ? 'py-3' : 'py-6',
+        isMenuOpen && 'shadow-md'
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
